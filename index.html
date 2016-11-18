@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+	<meta name="robots" content="noindex,nodb">
+  <link rel="stylesheet" href="assets/vendor/qunit-2.0.1.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <!-- vendor libs -->
+  <script src="assets/vendor/jquery-3.1.1.min.js"></script>
+  <script src="assets/vendor/qunit-2.0.1.js"></script>
+  <script src="assets/vendor/require.js"></script>
+  <!-- init test -->
+  <script src="assets/testinit.js"></script>
+  <script>
+  if ( !QUnit.urlParams.amd ) {
+    loadTests();
+  }
+  </script>
+  <title>her0.api QUnit Test</title>
+</head>
+<body>
+  <article>
+    <header>
+      <h1>her0.api Test</h1>
+      <h2>Testing JSON, HTML and Text/Plain API output</h2>
+    </header>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <div id="qunit-status"></div>
+    <footer>
+      <ul>
+        <li><a href="#" title="her0.api.test README">api.test README</a></li>
+        <li><a href="#" title="her0.api on Github">Github her0.api</a></li>
+        <li><a href="#" title="her0.api.test on Github">Github her0.api.test</a></li>
+      </ul>
+    </footer>
+  </article>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body header {
+  margin-bottom: 60px;
+  padding: 20px 20px 10px 20px;
+  background-color: #EEE;
+  border-bottom: 5px solid #C2CCD1;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+body header,
+body footer,
+body #qunit-status {
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+}
+body header h1,
+body header h2 {
+  margin: 0;
+}
+body header h1 {
+  font-size: 200%;
+  color: #C6E746;
+}
+body header h2 {
+  font-size: 100%;
+  color: #C2CCD1;
+}
+body #qunit-status {
+  position: relative;
+  margin-bottom: 60px;
+  padding: 30px 15px 15px 15px;
+  margin-bottom: 30px;
+  font-size: 100%;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 1px;
+  color: white;
+  list-style: decimal-leading-zero;
+  background-color: #2B81AF;
+  border-bottom: 5px solid #0D3349;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+body #qunit-status:before {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  height: 10px;
+  content: "Request";
+  font-size: 60%;
+  text-transform: uppercase;
+  color: white;
+}
+body #qunit-status:hover p {
+  display: list-item;
+  margin-left: 30px;
+}
+body #qunit-status:hover:before {
+  content: "Request (full list)";
+}
+body #qunit-status p {
+  display: none;
+}
+body #qunit-status p:last-child,
+body #qunit-status p.error {
+  display: list-item;
+  margin-left: 30px;
+}
+body #qunit-status p.error strong ~ strong {
+  color: #EE5757;
+}
+body footer {
+  padding: 20px 20px 10px 20px;
+  background-color: #EEE;
+  border-top: 5px solid #C2CCD1;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+body footer ul {
+  padding: 0;
+}
+body footer ul li {
+  display: inline-block;
+  list-style: none;
+}
+body footer ul li + li:before {
+  content: "| ";
+}
+body footer ul li + li:before,
+body footer ul li a {
+  color: #2B81AF;
+}
